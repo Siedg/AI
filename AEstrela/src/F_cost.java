@@ -1,8 +1,8 @@
 /**
  * F_cost.java
  *
- * @author <a href="https://www.github.com/BloodShura">BloodShura</a> (João Vitor Verona Biazibetti)
- * @contact joaaoverona@gmail.com
+ * @author <a href="https://www.github.com/Siedg">Siedg</a> (Guilherme Nascimento de Lima)
+ * @contact siedg104@gmail.com
  * @date 30/09/2016 - 01:50
  * @since GAMMA - 0x3
  */

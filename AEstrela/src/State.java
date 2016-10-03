@@ -18,6 +18,6 @@ public interface State {
 
   public boolean equals(State s);
 
-  ArrayList<State> nextStates();
+  public ArrayList<State> nextStates();
 
 }

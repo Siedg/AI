@@ -78,7 +78,6 @@ public class curPuzzle implements State {
   public int cost(){
     return 1;
   }
-
   public boolean equals(State s) {
     curPuzzle aux = (curPuzzle) s;
     if (Arrays.equals(curPuzzle, aux.getCurPuzzle())){
@@ -96,7 +95,8 @@ public class curPuzzle implements State {
     System.out.println("[" + curPuzzle[6] + ", " + curPuzzle[7] + ", " + curPuzzle[8] + "\n");
   }
 
-  public boolean isFinal(){
+  //Verifica se o puzzle está terminado.
+  public boolean isFinal() {
     if (Arrays.equals(curPuzzle, finalState)) {
       return true;
     }
@@ -105,6 +105,7 @@ public class curPuzzle implements State {
     }
   }
 
+  //Retorna a posição do zero('0').
   public int getZero() {
     int zeroIndex = -1;
 
@@ -116,7 +117,7 @@ public class curPuzzle implements State {
   }
 
   //Encontra os próximos estados do puzzle.
-  ArrayList<State> nextStates(){
+  public ArrayList<State> nextStates(){
     ArrayList<State> nextS = new ArrayList<>();
     int zero = getZero();
 
