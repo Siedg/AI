@@ -28,7 +28,7 @@ public class curPuzzle implements State {
     return finalState;
   }
 
-  public int getManDist() {
+  public int getManhattanDist() {
     return manhattanDist;
   }
 
