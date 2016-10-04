@@ -80,7 +80,7 @@ public class curPuzzle implements State {
   }
   public boolean equals(State s) {
     curPuzzle aux = (curPuzzle) s;
-    if (Arrays.equals(curPuzzle, aux.getCurPuzzle())){
+    if (Arrays.equals(curPuzzle, aux.getCurPuzzle())) {
       return true;
     }
     else{
